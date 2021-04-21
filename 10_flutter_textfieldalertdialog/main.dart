@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'TextField Alert Dialog Demo',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.lightGreen,
       ),
       home: TextFieldAlertDialog(),
     );
@@ -32,8 +32,8 @@ class TextFieldAlertDialog extends StatelessWidget {
               decoration: InputDecoration(hintText: "Please Enter a Message."),
             ),
             actions: <Widget>[
-              new TextButton(
-                child: new Text('Submit'),
+              TextButton(
+                child: Text('Submit'),
                 onPressed: () {
                   Navigator.of(context).pop();
                   print('Submit Action!!');
