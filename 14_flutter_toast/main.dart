@@ -20,7 +20,6 @@ class _ToastState extends State {
       gravity: ToastGravity.BOTTOM,
     );
   }
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
