@@ -13,7 +13,7 @@ class Webservice {
     //https://newsapi.org
     final response = await http.get(
       Uri.parse(
-          'https://newsapi.org/v2/top-headlines?country=us&apiKey=d87608b890e845fe8390a535af4534de'),
+          'https://newsapi.org/v2/top-headlines?country=us&apiKey='),
     );
 
     if (response.statusCode == 200) {
